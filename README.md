@@ -2,9 +2,9 @@
 
 ## How do I install synnax
 
-`brew install synnax-labs/synnax/synnax`
+`brew install synnaxlabs/synnax/synnax`
 
-Or `brew tap synnax-labs/synnax` and then `brew install synnax`.
+Or `brew tap synnaxlabs/synnax` and then `brew install synnax`.
 
 ## Documentation
 
