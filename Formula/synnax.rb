@@ -1,5 +1,5 @@
 class Synnax < Formula
-  desc "Synnax, operate large scale hardware systems with ease"
+  desc "Operate large scale hardware systems with ease"
   homepage "https://github.com/synnaxlabs/synnax"
   url "https://github.com/synnaxlabs/synnax/archive/refs/tags/synnax/v0.8.1.tar.gz"
   sha256 "a8c443b501cfc0a028f18a7b7cc5d0edb03c46642ab0f158e8ff3d1adfa0ff75"
@@ -14,6 +14,7 @@ class Synnax < Formula
   end
 
   test do
-    system "go", "test", " -tags noui", "-v ./...", "--covermode=atomic", "--coverprofile=coverage.txt", "--ginkgo.label-filter='!integration && !performance'"
+    system "go", "test", " -tags noui", "-v ./...", "--covermode=atomic", \
+    "--coverprofile=coverage.txt", "--ginkgo.label-filter='!integration && !performance'"
   end
 end
