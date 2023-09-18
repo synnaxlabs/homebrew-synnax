@@ -1,10 +1,10 @@
 # Synnax-labs Synnax
 
-## How do I install these formulae?
+## How do I install synnax
 
-`brew install synnax-labs/synnax/<formula>`
+`brew install synnax-labs/synnax/synnax`
 
-Or `brew tap synnax-labs/synnax` and then `brew install <formula>`.
+Or `brew tap synnax-labs/synnax` and then `brew install synnax`.
 
 ## Documentation
 
