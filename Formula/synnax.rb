@@ -8,7 +8,7 @@ class Synnax < Formula
   depends_on "go" => :build
 
   def install
-    system "mkdir", "-p #{buildpath}/bin"
+    mkdir_p "./bin"
     system "go", "build", "-o=./bin/synnax", "./synnax"
     bin.install "./bin/synnax"
   end
