@@ -2,9 +2,9 @@
 
 ## How do I install these formulae?
 
-`brew install synnax-labs/synnax/<formula>`
+`brew install MatchaOnMuffins/synnax/<formula>`
 
-Or `brew tap synnax-labs/synnax` and then `brew install <formula>`.
+Or `brew tap MatchaOnMuffins/synnax` and then `brew install <formula>`.
 
 ## Documentation
 
